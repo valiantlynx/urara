@@ -37,7 +37,7 @@ Create a production version of ur blog:
 ```bash
 pnpm build
 ```
-
+ggo
 u can preview the built app with `pnpm preview`.
 
 ## Documentation
