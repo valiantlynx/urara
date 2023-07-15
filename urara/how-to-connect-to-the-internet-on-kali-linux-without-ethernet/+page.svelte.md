@@ -3,7 +3,7 @@
 title: How to Connect to the Internet on Kali Linux Without Ethernet
 created: 2023-05-09
 tags: ['Kali Linux', 'Internet Connection']
-image: '/How-to-Connect-to-the-Internet-on-Kali-Linux-Without-Ethernet/image.png'
+image: '/how-to-connect-to-the-internet-on-kali-linux-without-ethernet/image.png'
 ---
 ## Paragraphs
 
