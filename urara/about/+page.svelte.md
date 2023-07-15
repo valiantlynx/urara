@@ -1,5 +1,5 @@
 ---
-title: 'valiantlynx'
+title: 'Who am i'
 image: '/valiantlynx/image.png'
 alt: 'valiantlynx'
 created: 2021-11-01
