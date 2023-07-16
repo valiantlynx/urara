@@ -1,14 +1,11 @@
 ---
-title: 'Who am i'
-image: '/valiantlynx/image.png'
-alt: 'valiantlynx'
+title: 'About valiantlynx'
+image: '/about/urara.webp'
+alt: 'About valiantlynx'
 created: 2021-11-01
 updated: 2021-12-12
 tags:
   - 'valiantlynx'
 ---
 
-Welcome to Valiantlynx! this article contains some basic operations to help you quickly get started.
-
-## Developing
-stuff
+Welcome to valiantlynx! this article will contain some info soon

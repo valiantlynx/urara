@@ -1,14 +1,17 @@
 ---
-title: 'Other projects by valiantlynx'
-image: '/valiantlynx/image.png'
-alt: 'valiantlynx'
-created: 2021-11-01
-updated: 2021-12-12
-tags:
-  - 'valiantlynx'
+title: Projects
+summary: This post has disabled table of contents.
+created: 2021-12-12
+tags: ['Front-Matter']
+toc: false
 ---
 
-Welcome to Valiantlynx! this article contains some basic operations to help you quickly get started.
+This post has disabled table of contents.
 
-## Developing
-stuff
+When the `toc: false` on Front-Matter, toc should not be displayed.
+
+## Heading
+
+### Heading
+
+#### Heading
