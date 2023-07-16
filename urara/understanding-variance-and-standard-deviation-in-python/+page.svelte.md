@@ -4,6 +4,7 @@ created: 2023-02-18
 tags: ['Variance', 'Standard Deviation', 'Python', 'Statistics']
 image: '/understanding-variance-and-standard-deviation-in-python/image.png'
 alt: 'Understanding Variance and Standard Deviation in Python'
+summary: Variance and standard deviation are two commonly used measures of statistical dispersion. They can be used to quantify the amount of variation or dispersion of a set of values. In this blog, we'll learn how to calculate variance and standard deviation in Python without importing any modules.
 ---
 
 ## Headings
