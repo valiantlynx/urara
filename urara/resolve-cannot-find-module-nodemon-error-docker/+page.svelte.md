@@ -4,6 +4,7 @@ created: 2023-02-19
 tags: ['Docker', 'Node.js', 'Nodemon', 'Error', 'Troubleshooting']
 image: '/resolve-cannot-find-module-nodemon-error-docker/image.png'
 alt: 'How to Resolve the Cannot find module nodemon Error When Running Nodemon Inside a Docker Container'
+summary: Docker is a popular platform for building, shipping, and running applications in containers. When developing applications with Node.js, it is common to use tools like nodemon to automatically reload the application when code changes are made. However, sometimes when running nodemon inside a Docker container, you may encounter an error that says "Cannot find module 'nodemon'".
 ---
 
 ## Headings

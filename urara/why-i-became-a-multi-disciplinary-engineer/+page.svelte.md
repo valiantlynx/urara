@@ -4,6 +4,7 @@ created: 2023-02-13
 tags: ['Engineering', 'Virtual World', 'AI', 'Blockchain', 'Web Development', 'Product Design']
 image: '/why-i-became-a-multi-disciplinary-engineer/image.png'
 alt: 'Why I Became a Multi-Disciplinary Engineer; My Journey to Building a Virtual World'
+summary: As a mechanical engineer, I've always been fascinated by the idea of creating a virtual world that mimics reality. It all started when I first learned to code and had the dream of building a complete virtual world that one could dive into and live in. I was driven by the idea that in a virtual world, time could be accelerated and everything could be controlled, making it possible to create a unique and immersive experience.
 ---
 
 ## Headings

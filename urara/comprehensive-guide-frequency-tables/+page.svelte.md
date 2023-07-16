@@ -4,6 +4,7 @@ created: 2023-02-20
 tags: ['Frequency Tables', 'Histograms', 'Data Visualization', 'Statistics']
 image: '/comprehensive-guide-frequency-tables/image.png'
 alt: 'A Comprehensive Guide to Understanding and Visualizing Frequency Tables'
+summary: Frequency tables and histograms are two of the most commonly used tools in statistics for representing and visualizing data. In this guide, we will explore the basics of frequency tables and histograms, including how to create frequency tables, calculate relative frequencies, and visualize the data with histograms.
 ---
 
 ## Headings

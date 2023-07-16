@@ -4,6 +4,7 @@ created: 2023-02-14
 tags: ['Python', 'API', 'HTTP Requests']
 image: '/using-api-python/image.png'
 alt: 'How to Use an API with Python'
+summary: APIs (Application Programming Interfaces) are essential tools for interacting with other software systems. They provide a way to access data or services over the internet. In this article, we'll learn how to use an API with Python and make HTTP requests to retrieve data.
 ---
 
 ## Headings

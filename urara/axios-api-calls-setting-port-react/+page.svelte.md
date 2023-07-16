@@ -4,6 +4,7 @@ created: 2023-02-26
 tags: ['Axios', 'API Calls', 'React', 'Troubleshooting']
 image: '/axios-api-calls-setting-port-react/image.png'
 alt: 'Troubleshooting Axios API Calls and Setting Port in React'
+summary: In this article, we'll be discussing how to troubleshoot Axios API calls and how to set a custom port for your React app. Axios is a popular JavaScript library used for making HTTP requests, and it's especially useful when working with React. However, if you're encountering issues with Axios API calls, it can be difficult to know where to start.
 ---
 
 ## Headings

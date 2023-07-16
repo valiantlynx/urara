@@ -4,6 +4,7 @@ created: 2023-02-22
 tags: ['Docker', 'Node.js', 'Production Deployment']
 image: '/dockerizing-nodejs-application-production-deployment/image.png'
 alt: 'Dockerizing a Node.js Application for Production Deployment'
+summary: Dockerizing a Node.js application is a crucial step in the process of deploying a web application to production. The Docker image created by the Dockerfile contains everything your application needs to run in a production environment, making it easier to deploy and manage.
 ---
 
 ## Headings

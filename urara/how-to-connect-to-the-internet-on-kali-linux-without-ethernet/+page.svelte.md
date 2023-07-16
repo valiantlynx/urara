@@ -5,6 +5,7 @@ created: 2023-05-09
 tags: ['Kali Linux', 'Internet Connection']
 image: '/how-to-connect-to-the-internet-on-kali-linux-without-ethernet/image.png'
 alt: 'How to Connect to the Internet on Kali Linux Without Ethernet'
+summary: If you've installed Kali Linux on your laptop but don't have an Ethernet port, connecting to the internet can be a challenge. Fortunately, there are a few workarounds you can use to get connected, as we explored in this conversation. In this blog post, we will explain two methods to connect to the internet without Ethernet.
 ---
 
 ## Paragraphs

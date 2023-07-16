@@ -4,6 +4,7 @@ created: 2023-02-23
 tags: ['Linux', 'Command Line', 'File Management']
 image: '/remove-everything-except-build-folder-linux/image.png'
 alt: 'How to Remove Everything Except the Build Folder in Linux'
+summary: Are you looking to clean up your project directory, but want to keep the build folder intact? Here's how you can do it in Linux using the command line.
 ---
 
 ## Headings

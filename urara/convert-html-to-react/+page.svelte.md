@@ -4,6 +4,7 @@ created: 2023-02-15
 tags: ['HTML', 'React', 'Web Development', 'Frontend Development']
 image: '/convert-html-to-react/image.png'
 alt: 'How to Convert HTML to React; A Step-by-Step Guide'
+summary: React is a popular JavaScript library for building user interfaces, and it's widely used for creating dynamic and interactive web applications. If you have existing HTML pages that you'd like to convert to React, it can seem like a daunting task. But don't worry, with a little bit of planning and patience, you can easily convert your HTML to React and enjoy all the benefits of this powerful library.
 ---
 
 ## Headings
