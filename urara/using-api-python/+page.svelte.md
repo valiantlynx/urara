@@ -3,17 +3,10 @@ title: How to Use an API with Python
 created: 2023-02-14
 tags: ['Python', 'API', 'HTTP Requests']
 image: '/using-api-python/image.png'
+alt: 'How to Use an API with Python'
 ---
 
 ## Headings
-
-### Heading
-
-#### Heading
-
-##### Heading
-
-###### Heading
 
 ---
 

@@ -3,17 +3,10 @@ title: How to Convert HTML to React; A Step-by-Step Guide
 created: 2023-02-15
 tags: ['HTML', 'React', 'Web Development', 'Frontend Development']
 image: '/convert-html-to-react/image.png'
+alt: 'How to Convert HTML to React; A Step-by-Step Guide'
 ---
 
 ## Headings
-
-### Heading
-
-#### Heading
-
-##### Heading
-
-###### Heading
 
 ---
 

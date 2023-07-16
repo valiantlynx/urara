@@ -3,17 +3,10 @@ title: How to Install WSL/WSL2 Distro on an External Drive
 created: 2023-04-29
 tags: ['WSL', 'WSL2', 'External Drive']
 image: '/how-to-intall-wsl-wsl2-distro-on-an-external-drive/image.png'
+alt: 'How to Install WSL/WSL2 Distro on an External Drive'
 ---
 
 ## Headings
-
-### Heading
-
-#### Heading
-
-##### Heading
-
-###### Heading
 
 ---
 

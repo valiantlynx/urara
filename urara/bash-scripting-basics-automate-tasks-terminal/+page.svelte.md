@@ -3,17 +3,10 @@ title: Bash Scripting Basics; How to Automate Tasks in the Terminal
 created: 2023-02-25
 tags: ['Bash scripting', 'Automation', 'Terminal']
 image: '/bash-scripting-basics-automate-tasks-terminal/image.png'
+alt: 'Bash Scripting Basics; How to Automate Tasks in the Terminal'
 ---
 
 ## Headings
-
-### Heading
-
-#### Heading
-
-##### Heading
-
-###### Heading
 
 ---
 

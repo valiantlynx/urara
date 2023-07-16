@@ -3,17 +3,10 @@ title: The Ultimate Guide to Understanding and Using Artificial Intelligence
 created: 2023-02-17
 tags: ['Artificial Intelligence', 'AI', 'Machine Learning', 'Deep Learning', 'Natural Language Processing', 'Ethics']
 image: '/the-ultimate-guide-to-understanding-and-using-artificial-intelligence/image.png'
+alt: 'The Ultimate Guide to Understanding and Using Artificial Intelligence'
 ---
 
 ## Headings
-
-### Heading
-
-#### Heading
-
-##### Heading
-
-###### Heading
 
 ---
 

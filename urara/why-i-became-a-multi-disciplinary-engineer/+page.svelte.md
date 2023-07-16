@@ -3,17 +3,10 @@ title: Why I Became a Multi-Disciplinary Engineer; My Journey to Building a Virt
 created: 2023-02-13
 tags: ['Engineering', 'Virtual World', 'AI', 'Blockchain', 'Web Development', 'Product Design']
 image: '/why-i-became-a-multi-disciplinary-engineer/image.png'
+alt: 'Why I Became a Multi-Disciplinary Engineer; My Journey to Building a Virtual World'
 ---
 
 ## Headings
-
-### Heading
-
-#### Heading
-
-##### Heading
-
-###### Heading
 
 ---
 

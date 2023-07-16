@@ -62,24 +62,7 @@ export const header: HeaderConfig = {
     {
       text: 'Other Projects',
       link: '/projects'
-    },
-    {
-      text: 'Hello World',
-      children: [
-        {
-         text: 'Get Started',
-         link: '/hello-world'
-        },
-        {
-          text: 'Elements',
-          link: '/hello-world/elements'
-        },
-      {
-        text: 'ToC Disabled',
-        link: '/hello-world/toc-disabled'
-      }
-      ]
-   }
+    }
    
   ]
 }

@@ -3,17 +3,10 @@ title: How to Resolve the "Cannot find module 'nodemon'" Error When Running Node
 created: 2023-02-19
 tags: ['Docker', 'Node.js', 'Nodemon', 'Error', 'Troubleshooting']
 image: '/resolve-cannot-find-module-nodemon-error-docker/image.png'
+alt: 'How to Resolve the Cannot find module nodemon Error When Running Nodemon Inside a Docker Container'
 ---
 
 ## Headings
-
-### Heading
-
-#### Heading
-
-##### Heading
-
-###### Heading
 
 ---
 

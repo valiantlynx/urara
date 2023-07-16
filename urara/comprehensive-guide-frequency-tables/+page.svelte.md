@@ -3,17 +3,10 @@ title: A Comprehensive Guide to Understanding and Visualizing Frequency Tables
 created: 2023-02-20
 tags: ['Frequency Tables', 'Histograms', 'Data Visualization', 'Statistics']
 image: '/comprehensive-guide-frequency-tables/image.png'
+alt: 'A Comprehensive Guide to Understanding and Visualizing Frequency Tables'
 ---
 
 ## Headings
-
-### Heading
-
-#### Heading
-
-##### Heading
-
-###### Heading
 
 ---
 

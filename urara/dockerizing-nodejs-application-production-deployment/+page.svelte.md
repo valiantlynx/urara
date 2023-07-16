@@ -3,17 +3,10 @@ title: Dockerizing a Node.js Application for Production Deployment
 created: 2023-02-22
 tags: ['Docker', 'Node.js', 'Production Deployment']
 image: '/dockerizing-nodejs-application-production-deployment/image.png'
+alt: 'Dockerizing a Node.js Application for Production Deployment'
 ---
 
 ## Headings
-
-### Heading
-
-#### Heading
-
-##### Heading
-
-###### Heading
 
 ---
 

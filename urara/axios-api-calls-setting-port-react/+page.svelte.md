@@ -3,17 +3,10 @@ title: Troubleshooting Axios API Calls and Setting Port in React
 created: 2023-02-26
 tags: ['Axios', 'API Calls', 'React', 'Troubleshooting']
 image: '/axios-api-calls-setting-port-react/image.png'
+alt: 'Troubleshooting Axios API Calls and Setting Port in React'
 ---
 
 ## Headings
-
-### Heading
-
-#### Heading
-
-##### Heading
-
-###### Heading
 
 ---
 

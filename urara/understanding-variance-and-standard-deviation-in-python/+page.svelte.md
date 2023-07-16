@@ -3,17 +3,10 @@ title: Understanding Variance and Standard Deviation in Python
 created: 2023-02-18
 tags: ['Variance', 'Standard Deviation', 'Python', 'Statistics']
 image: '/understanding-variance-and-standard-deviation-in-python/image.png'
+alt: 'Understanding Variance and Standard Deviation in Python'
 ---
 
 ## Headings
-
-### Heading
-
-#### Heading
-
-##### Heading
-
-###### Heading
 
 ---
 

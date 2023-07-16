@@ -3,17 +3,10 @@ title: How to Remove Everything Except the Build Folder in Linux
 created: 2023-02-23
 tags: ['Linux', 'Command Line', 'File Management']
 image: '/remove-everything-except-build-folder-linux/image.png'
+alt: 'How to Remove Everything Except the Build Folder in Linux'
 ---
 
 ## Headings
-
-### Heading
-
-#### Heading
-
-##### Heading
-
-###### Heading
 
 ---
 

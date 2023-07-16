@@ -3,17 +3,10 @@ title: How to Extract Data from an API Response in JavaScript
 created: 2023-02-14
 tags: ['JavaScript', 'API', 'Web Development', 'Frontend Development']
 image: '/extract-data-api-response-javascript/image.png'
+alt: 'How to Extract Data from an API Response in JavaScript'
 ---
 
 ## Headings
-
-### Heading
-
-#### Heading
-
-##### Heading
-
-###### Heading
 
 ---
 

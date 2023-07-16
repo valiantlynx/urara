@@ -3,17 +3,10 @@ title: How to Import JSON Data into Sanity CMS
 created: 2023-02-24
 tags: ['Sanity CMS', 'JSON Data', 'Import']
 image: '/import-json-into-sanity/image.png' 
+alt: 'How to Import JSON Data into Sanity CMS'
 ---
 
 ## Headings
-
-### Heading
-
-#### Heading
-
-##### Heading
-
-###### Heading
 
 ---
 
