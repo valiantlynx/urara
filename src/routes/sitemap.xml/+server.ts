@@ -22,6 +22,13 @@ const render = (): string =>
             <loc>${site.protocol + site.domain + post.path}</loc>
             <lastmod>${new Date(post.updated ?? post.published ?? post.created).toISOString()}</lastmod>
             <priority>0.5</priority>
+            <mobile:mobile type="responsive"/>
+            <image:image>
+              <image:loc>${post.image}</image:loc>
+              <image:caption>${post.summary}</image:caption>
+              <image:geo_location>Norway</image:geo_location>
+              <image:title>${post.alt}</image:title>
+            </image:image>
         </url>`
       )
       .join('')}
