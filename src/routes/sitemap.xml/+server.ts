@@ -33,26 +33,14 @@ const render = (): string =>
     const imageUrls = genPosts().map((post) => site.protocol + site.domain + post.path + "/image.png");
 
     const promises = () => {
-        // send post request to an api that pings google
-        // return fetch(`${site.protocol + site.domain}/google/indexer`, {
-        //     method: "POST",
-        //     headers: {
-        //         "Content-Type": "application/json",
-        //     },
-        //     body: JSON.stringify({ urls: urls, imageUrls: imageUrls }),
-        // });
-
-        // use axios instead   
+        // send post request to an api that pings google 
         return axios.post(
-          `http://localhost:5173/google/indexer`, 
+          `${site.protocol + site.domain}/google/indexer`, 
           { urls: urls, imageUrls: imageUrls })
           .catch((err) => {
             console.log("error: ", err.message, err.status, "sitemap.xml");
         } );
-
-
     };
-
     await promises();
 };
 
