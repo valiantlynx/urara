@@ -24,7 +24,7 @@ const render = (): string =>
             <priority>0.5</priority>
             <mobile:mobile type="responsive"/>
             <image:image>
-              <image:loc>${post.image}</image:loc>
+              <image:loc>${site.protocol + site.domain + post.image}</image:loc>
               <image:caption>${post.summary}</image:caption>
               <image:geo_location>Norway</image:geo_location>
               <image:title>${post.alt}</image:title>
