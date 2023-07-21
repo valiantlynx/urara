@@ -1,6 +1,7 @@
 import type { RequestHandler } from './$types'
 import { site } from '$lib/config/site'
 import { genPosts } from '$lib/utils/posts'
+import axios from "axios"
 
 const render = (): string =>
   `<?xml version='1.0' encoding='utf-8'?>
@@ -25,6 +26,37 @@ const render = (): string =>
       )
       .join('')}
   </urlset>`.trim()
+
+  // ping google to update the the urls of the company and the images
+  const pingGoogle = async () => {
+    const urls = genPosts().map((post) => site.protocol + site.domain + post.path);
+    const imageUrls = genPosts().map((post) => site.protocol + site.domain + post.path + "/image.png");
+
+    const promises = () => {
+        // send post request to an api that pings google
+        // return fetch(`${site.protocol + site.domain}/google/indexer`, {
+        //     method: "POST",
+        //     headers: {
+        //         "Content-Type": "application/json",
+        //     },
+        //     body: JSON.stringify({ urls: urls, imageUrls: imageUrls }),
+        // });
+
+        // use axios instead   
+        return axios.post(
+          `http://localhost:5173/google/indexer`, 
+          { urls: urls, imageUrls: imageUrls })
+          .catch((err) => {
+            console.log("error: ", err.message, err.status, "sitemap.xml");
+        } );
+
+
+    };
+
+    await promises();
+};
+
+pingGoogle();
 
 export const prerender = true
 export const trailingSlash = 'never'

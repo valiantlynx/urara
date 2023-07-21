@@ -1,12 +1,12 @@
 {
-  "name": "urara",
+  "name": "valiantlynx",
   "type": "module",
   "version": "0.0.1",
   "license": "WTFPL",
   "repository": "importantimport/urara",
-  "homepage": "https://github.com/importantimport/urara",
-  "bugs": "https://github.com/importantimport/urara/issues",
-  "author": "藍+85CD",
+  "homepage": "https://github.com/valiantlynx/urara",
+  "bugs": "https://github.com/valiantlynx/urara/issues",
+  "author": "valiantlynx",
   "scripts": {
     "clean": "node urara.js clean",
     "tsc": "tsc -p tsconfig.node.json",
@@ -75,7 +75,9 @@
     "vite-imagetools": "^4.0.19",
     "vite-plugin-pwa": "^0.14.7",
     "workbox-build": "^6.6.0",
-    "workbox-window": "^6.6.0"
+    "workbox-window": "^6.6.0",
+    "axios": "^1.4.0",
+    "googleapis": "^122.0.0"
   },
   "pnpm": {
     "overrides": {
