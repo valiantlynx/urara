@@ -5,6 +5,9 @@ static
 .netlify
 .vercel
 
+# vscode
+.vscode
+
 # dependencies
 node_modules
 
