@@ -38,6 +38,7 @@
     "@typescript-eslint/parser": "^5.59.7",
     "@unocss/extractor-svelte": "^0.52.4",
     "@vite-pwa/sveltekit": "^0.1.3",
+    "axios": "^1.4.0",
     "chalk": "^5.2.0",
     "chokidar": "^3.5.3",
     "cross-env": "^7.0.3",
@@ -48,9 +49,11 @@
     "fenceparser": "^2.2.0",
     "fff-flavored-frontmatter": "1.0.0-alpha.1",
     "github-slugger": "^2.0.0",
+    "googleapis": "^122.0.0",
     "mdast-util-to-string": "^3.2.0",
     "mdsvex": "^0.10.6",
     "npm-run-all": "^4.1.5",
+    "pocketbase": "^0.16.0",
     "postcss": "^8.4.23",
     "postcss-lightningcss": "^0.7.0",
     "prettier": "^2.8.8",
@@ -75,9 +78,7 @@
     "vite-imagetools": "^4.0.19",
     "vite-plugin-pwa": "^0.14.7",
     "workbox-build": "^6.6.0",
-    "workbox-window": "^6.6.0",
-    "axios": "^1.4.0",
-    "googleapis": "^122.0.0"
+    "workbox-window": "^6.6.0"
   },
   "pnpm": {
     "overrides": {

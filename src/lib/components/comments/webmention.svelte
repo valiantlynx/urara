@@ -2,8 +2,18 @@
   import { onMount } from 'svelte'
   import { site } from '$lib/config/site'
   import type { WebmentionConfig } from '$lib/types/post'
-  export let config: WebmentionConfig
   export let post: Urara.Post
+
+  let config: WebmentionConfig = {
+    username: "valiantlynx",
+    perPage: 20,
+    sortBy: 'created',
+    sortDir: 'down',
+    property: ['in-reply-to', 'like-of', 'repost-of', 'bookmark-of', 'mention-of', 'rsvp'],
+    blockList: [],
+    form: true,
+    commentParade: true
+  }
 
   interface WebmentionFeed {
     type: 'feed'

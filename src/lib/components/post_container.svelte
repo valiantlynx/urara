@@ -6,6 +6,7 @@
   import Toc from '$lib/components/post_toc.svelte'
   import Action from '$lib/components/post_action.svelte'
   import Footer from '$lib/components/footer.svelte'
+  import Chat from './Chat.svelte'
   export let post: Urara.Post
 </script>
 
@@ -30,10 +31,12 @@
       </div>
     {/if}
   </div>
+
   <div class="flex-none w-full max-w-screen-md mx-auto xl:mx-0">
     <Card {post}>
       <slot />
     </Card>
+    <Chat />
     <Footer sticky={true} />
   </div>
 </div>

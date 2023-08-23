@@ -2,7 +2,23 @@
   import { onMount } from 'svelte'
   import { site } from '$lib/config/site'
   import type { GiscusConfig } from '$lib/types/post'
-  export let config: GiscusConfig
+
+  // change this to your giscus stuff configs
+  export let config: GiscusConfig  = {
+    src: 'https://giscus.app/client.js',
+    repo: 'valiantlynx/urara',
+    repoID: 'R_kgDOJ7llog',
+    category: 'General',
+    categoryID: 'DIC_kwDOJ7llos4CYz8Z',
+    mapping: 'pathname',
+    strict: false,
+    reactionsEnabled: true,
+    inputPosition: 'top',
+    emitMetadata: true,
+    theme: 'light',
+    lang: 'en'
+  }
+
 
   onMount(() => {
     const giscus = document.createElement('script')
@@ -14,10 +30,10 @@
       'data-category-id': config.categoryID,
       'data-mapping': 'pathname',
       'data-reactions-enabled': config.reactionsEnabled === false ? '0' : '1',
-      'data-input-position': config.inputPosition ?? 'bottom',
+      'data-input-position': config.inputPosition === 'top' ? 'top' : 'bottom',
       'data-theme': config.theme ?? 'preferred_color_scheme',
       'data-lang': config.lang ?? site.lang ?? 'en',
-      'data-loading': config.loading ?? '',
+      'data-loading': config.loading ?? 'lazy',
       crossorigin: 'anonymous',
       async: ''
     }).forEach(([key, value]) => giscus.setAttribute(key, value))

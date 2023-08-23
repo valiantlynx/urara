@@ -50,16 +50,20 @@ export type GiscusConfig = {
   categoryID: string
   /** the reactions for the discussion's main post will be shown before the comments. */
   reactionsEnabled?: boolean
+  /** choose how to map the discussion category to the GitHub repository. */
+  mapping?: string
   /** discussion metadata will be sent periodically to the parent window (the embedding page). */
   emitMetadata?: boolean
   /** the comment input box will be placed above the comments, so that users can leave a comment without scrolling to the bottom of the discussion. */
-  inputPosition?: 'top' | 'bottom'
+  inputPosition?: string
   /** choose a theme that matches your website. */
   theme?: string
   /** choose the language giscus will be displayed in. */
   lang?: string
   /** loading of the comments will be deferred until the user scrolls near the comments container. */
-  loading?: 'lazy'
+  loading?: string
+  /** experimental feature on if gisqus to be strict in the mapping */
+  strict?: boolean
 }
 
 export type UtterancesConfig = {
@@ -81,13 +85,13 @@ export type Remark42Config = {
   /** url to the page with comments*/
   url?: string
   /** an array of widgets that should be rendered on a page (default: ['embed'] )*/
-  components?: ['embed' | 'last-comments' | 'counter']
+  components?: string[]
   /** maximum number of comments that is rendered on mobile version (default: 15 )*/
   max_shown_comments?: number
   /** maximum number of comments in the last comments widget (default: 15 )*/
   max_last_comments?: number
   /** changes UI theme, (default: light )*/
-  theme?: 'light' | 'dark'
+  theme?: string
   /** title for current comments page  (default: document.title)*/
   page_title?: string
   /**
@@ -95,7 +99,7 @@ export type Remark42Config = {
    * English (en), Belarusian (be), Brazilian Portuguese (bp), Bulgarian (bg), Chinese (zh), Finnish (fi), French (fr), German (de), Japanese (ja), Korean (ko), Polish (pl), Russian (ru), Spanish (es), Turkish (tr), Ukrainian (ua), Italian (it) and Vietnamese (vi)
    * default: en
    */
-  locale?: 'en' | 'be' | 'bp' | 'bg' | 'zh' | 'fi' | 'fr' | 'de' | 'ja' | 'ko' | 'pl' | 'ru' | 'es' | 'tr' | 'ua' | 'it' | 'vi'
+  locale?: string
   /** enables email subscription  (default: true) */
   show_email_subscription?: boolean
   /** enables RSS subscription, (default: true) */

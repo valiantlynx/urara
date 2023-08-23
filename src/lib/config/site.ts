@@ -3,6 +3,7 @@ import type { SiteConfig } from '$lib/types/site'
 export const site: SiteConfig = {
   protocol: import.meta.env.URARA_SITE_PROTOCOL ?? import.meta.env.DEV ? 'http://' : 'https://',
   domain: import.meta.env.URARA_SITE_DOMAIN ?? 'valiantlynx.com',
+  pocketbase: import.meta.env.POCKETBASE_URL ?? "https://nameless-cloud-5581.fly.dev",
   title: 'Valiantlynx',
   subtitle: 'Where Imagination Meets Innovation',
   lang: 'en-US',

@@ -92,6 +92,9 @@ devDependencies:
   npm-run-all:
     specifier: ^4.1.5
     version: 4.1.5
+  pocketbase:
+    specifier: ^0.16.0
+    version: 0.16.0
   postcss:
     specifier: ^8.4.23
     version: 8.4.23
@@ -5132,6 +5135,10 @@ packages:
   /pirates@4.0.5:
     resolution: {integrity: sha512-8V9+HQPupnaXMA23c5hvl69zXvTwTzyAYasnkb0Tts4XvO4CliqONMOnvlq26rkhLC3nWDFBJf73LU1e1VZLaQ==}
     engines: {node: '>= 6'}
+    dev: true
+
+  /pocketbase@0.16.0:
+    resolution: {integrity: sha512-sndPu4Mbu1Y2VefvO2gIa/No5aIdP6E5br9HUGomvDYSfkmGfBxJNkivJSSKlr9KwWnaF8otf14304UUeFGOrA==}
     dev: true
 
   /postcss-import@15.1.0(postcss@8.4.23):

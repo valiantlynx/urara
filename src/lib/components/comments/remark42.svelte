@@ -1,10 +1,26 @@
 <script lang="ts">
   import { onMount, onDestroy } from 'svelte'
   import type { Remark42Config } from '$lib/types/post'
+  import { site } from '$lib/config/site'
   export let post: Urara.Post
-  export let config: Remark42Config
 
   let remark42Instance: any
+
+  // change this to your remark42 stuff configs
+  const config: Remark42Config = {
+    host: site.protocol + site.domain + post.path,
+    site_id: post.path,
+    components: ['embed', 'last-comments'],
+    max_shown_comments: 15,
+    max_last_comments: 15,
+    theme: 'light',
+    page_title: post.title,
+    locale: 'en',
+    show_email_subscription: true,
+    show_rss_subscription: true,
+    simple_view: false,
+    no_footer: false
+  }
 
   onMount(() => {
     const [c, s] = [document.createElement('script'), document.createElement('script')]
