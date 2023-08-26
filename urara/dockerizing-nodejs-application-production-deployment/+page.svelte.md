@@ -55,4 +55,3 @@ This Dockerfile first copies the **package.json** and **package-lock.json** file
 In conclusion, Dockerizing a Node.js application is a crucial step in deploying a web application to production. By creating a Dockerfile that installs a production-ready build of your application and serving it with the Serve package, you can easily deploy and manage your application in a production environment. Additionally, by optimizing the Docker image for space, you can save on storage.
 
 [scrollToTop](#headings)
-

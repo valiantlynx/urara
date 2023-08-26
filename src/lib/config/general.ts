@@ -63,7 +63,6 @@ export const header: HeaderConfig = {
       text: 'Other Projects',
       link: '/projects'
     }
-   
   ]
 }
 

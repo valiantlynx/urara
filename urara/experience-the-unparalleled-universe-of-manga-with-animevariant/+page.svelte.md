@@ -1,6 +1,6 @@
 ---
 title: Experience the Unparalleled Universe of Manga with AnimeVariant
-created: 2023-06-07
+created: 2023-05-07
 tags: ['AnimeVariant', 'Manga', 'Digital Platforms']
 image: '/experience-the-unparalleled-universe-of-manga-with-animevariant/image.png'
 alt: 'Experience the Unparalleled Universe of Manga with AnimeVariant'

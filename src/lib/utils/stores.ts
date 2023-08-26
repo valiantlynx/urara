@@ -1,42 +1,42 @@
 // stores.js
-import { writable } from 'svelte/store';
+import { writable } from 'svelte/store'
 
 // Initial cart state
-const initialCart: any[] = [];
+const initialCart: any[] = []
 
 // Initial cart state
-const initialUser: any = {};
+const initialUser: any = {}
 
 // Create the cart store
-export const cart = writable(initialCart);
-export const order = writable(initialCart);
+export const cart = writable(initialCart)
+export const order = writable(initialCart)
 
 // Current User
-export const authData = writable(initialUser);
+export const authData = writable(initialUser)
 
-const sidebarOpen = writable(true);
+const sidebarOpen = writable(true)
 
 const toggleSidebar = () => {
-	sidebarOpen.update((prev) => !prev);
-};
+  sidebarOpen.update(prev => !prev)
+}
 
 const closeSidebar = () => {
-	sidebarOpen.update(() => false);
-};
+  sidebarOpen.update(() => false)
+}
 
-export { sidebarOpen, toggleSidebar, closeSidebar };
+export { sidebarOpen, toggleSidebar, closeSidebar }
 
 // Current sidebar section
-export const currentSection = writable('');
+export const currentSection = writable('')
 
 // Current page
-export const page = writable(1);
+export const page = writable(1)
 
 // pocketbase response
 export const pocketbaseResponse = writable({
-	page: 1,
-	perPage: 5,
-	totalItems: 0,
-	totalPages: 0,
-	items: []
-});
+  page: 1,
+  perPage: 5,
+  totalItems: 0,
+  totalPages: 0,
+  items: []
+})

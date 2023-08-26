@@ -5,7 +5,7 @@
   export let post: Urara.Post
 
   let config: WebmentionConfig = {
-    username: "valiantlynx",
+    username: 'valiantlynx',
     perPage: 20,
     sortBy: 'created',
     sortDir: 'down',

@@ -4,7 +4,7 @@
   import type { GiscusConfig } from '$lib/types/post'
 
   // change this to your giscus stuff configs
-  export let config: GiscusConfig  = {
+  export let config: GiscusConfig = {
     src: 'https://giscus.app/client.js',
     repo: 'valiantlynx/urara',
     repoID: 'R_kgDOJ7llog',
@@ -18,7 +18,6 @@
     theme: 'light',
     lang: 'en'
   }
-
 
   onMount(() => {
     const giscus = document.createElement('script')

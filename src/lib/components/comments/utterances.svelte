@@ -1,14 +1,13 @@
 <script lang="ts">
   import { onMount } from 'svelte'
   import type { UtterancesConfig } from '$lib/types/post'
-  
+
   let config: UtterancesConfig = {
     repo: 'https://github.com/valiantlynx/urara',
     theme: 'github-light',
     label: 'comment',
     src: 'https://utteranc.es/client.js'
   }
-
 
   onMount(() => {
     const utterances = document.createElement('script')

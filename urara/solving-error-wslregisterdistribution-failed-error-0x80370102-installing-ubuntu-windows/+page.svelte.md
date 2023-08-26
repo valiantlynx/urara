@@ -8,6 +8,7 @@ summary: Windows Subsystem for Linux (WSL) is a popular option for developers an
 ---
 
 ## Headings
+
 ---
 
 Windows Subsystem for Linux (WSL) is a popular option for developers and system administrators to run Linux applications natively on Windows. However, sometimes users face an error when trying to install Ubuntu or another Linux distribution via WSL. The error message reads "WslRegisterDistribution failed with error: 0x80370102." This error can occur due to several reasons, such as virtualization not being enabled in the BIOS or the Virtual Machine Platform Windows feature not being enabled.

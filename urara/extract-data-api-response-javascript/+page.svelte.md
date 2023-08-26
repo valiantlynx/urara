@@ -24,31 +24,29 @@ fetch('https://api.example.com/data')
   .then(response => response.json())
   .then(data => {
     // do something with the data
-    console.log(data);
-  });
-
+    console.log(data)
+  })
 ```
 
 ## Handling the Response with then()
+
 The **then()** method is used to handle the response from the API call. The **then()** method takes two arguments, a success callback and an error callback. In our example, we are using the success callback to parse the response and convert it into a JavaScript object using the **json() **method.
 
 ## Extracting Data with JSON.parse()
-The **JSON.parse()** method is used to parse a string of JSON data and convert it into a JavaScript object. In our example, we are using the **json()** method on the response object to extract the data from the API response.
 
+The **JSON.parse()** method is used to parse a string of JSON data and convert it into a JavaScript object. In our example, we are using the **json()** method on the response object to extract the data from the API response.
 
 ```javascript
 fetch('https://api.example.com/data')
   .then(response => response.json())
   .then(data => {
     // extract specific data
-    const name = data.name;
-    const age = data.age;
-    console.log(`Name: ${name}, Age: ${age}`);
-  });
-
+    const name = data.name
+    const age = data.age
+    console.log(`Name: ${name}, Age: ${age}`)
+  })
 ```
 
 In conclusion, extracting data from an API response in JavaScript is a relatively straightforward process using the fetch() function and the JSON.parse() method. Whether you are building a web application, mobile app, or simply working with data, understanding how to extract data from an API response is a critical skill for modern developers.
-
 
 [scrollToTop](#headings)
