@@ -1,7 +1,7 @@
 ---
 title: How to Extract Data from an API Response in JavaScript
 created: 2023-02-14
-tags: ['JavaScript', 'API', 'Web Development', 'Frontend Development']
+tags: ['JavaScript', 'API', 'Web Development', 'Frontend Development', 'how to extract data from api', ]
 image: '/extract-data-api-response-javascript/image.png'
 alt: 'How to Extract Data from an API Response in JavaScript'
 summary: In today's digital world, APIs have become a critical component for accessing and sharing data between different systems and applications. Whether you are building a web application, mobile app, or simply working with data, it's important to understand how to extract the data you need from an API response.
