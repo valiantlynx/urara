@@ -7,10 +7,6 @@ alt: 'Why I Became a Multi-Disciplinary Engineer; My Journey to Building a Virtu
 summary: As a mechanical engineer, I've always been fascinated by the idea of creating a virtual world that mimics reality. It all started when I first learned to code and had the dream of building a complete virtual world that one could dive into and live in. I was driven by the idea that in a virtual world, time could be accelerated and everything could be controlled, making it possible to create a unique and immersive experience.
 ---
 
-## Headings
-
----
-
 As a mechanical engineer, I've always been fascinated by the idea of creating a virtual world that mimics reality. It all started when I first learned to code and had the dream of building a complete virtual world that one could dive into and live in. I was driven by the idea that in a virtual world, time could be accelerated and everything could be controlled, making it possible to create a unique and immersive experience.
 
 In pursuit of this goal, I embarked on a journey of learning. I started with Python as my entry into programming, and then ventured into fields like Blender, Linux, and web development. I realized that to create a virtual world, I would need to master not just one field but several, including AI, Blockchain, Web Development, and Product Design.
@@ -22,5 +18,3 @@ Now, as a senior-level web developer and a mechanical engineer with expertise in
 All that's left is neural science. Of course, without having to split a human's skull.
 
 Join me on my journey and let's unleash the full potential of multi-disciplinary engineering together.
-
-[scrollToTop](#headings)

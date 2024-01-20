@@ -18,10 +18,6 @@ alt: 'Solving the Error WslRegisterDistribution failed with error; 0x80370102 wh
 summary: Windows Subsystem for Linux (WSL) is a popular option for developers and system administrators to run Linux applications natively on Windows. However, sometimes users face an error when trying to install Ubuntu or another Linux distribution via WSL. The error message reads "WslRegisterDistribution failed with error;0x80370102." This error can occur due to several reasons, such as virtualization not being enabled in the BIOS or the Virtual Machine Platform Windows feature not being enabled.
 ---
 
-## Headings
-
----
-
 Windows Subsystem for Linux (WSL) is a popular option for developers and system administrators to run Linux applications natively on Windows. However, sometimes users face an error when trying to install Ubuntu or another Linux distribution via WSL. The error message reads "WslRegisterDistribution failed with error: 0x80370102." This error can occur due to several reasons, such as virtualization not being enabled in the BIOS or the Virtual Machine Platform Windows feature not being enabled.
 
 In this article, we'll go through the steps to solve this error and successfully install Ubuntu on Windows via WSL.
@@ -49,5 +45,3 @@ The final step is to enable the hypervisorlaunchtype. To do this, follow these s
 After these steps, you should be able to install Ubuntu on Windows via WSL without encountering the error "WslRegisterDistribution failed with error: 0x80370102." If the error persists, it may be worth checking the official Microsoft documentation for additional troubleshooting steps or reaching out to Microsoft support for more assistance.
 
 In conclusion, this error can be solved by ensuring virtualization is enabled in the BIOS, enabling the Virtual Machine Platform Windows feature, and enabling the hypervisorlaunchtype. With these steps, you should be able to install Ubuntu on Windows via WSL and run Linux applications natively on Windows.
-
-[scrollToTop](#headings)

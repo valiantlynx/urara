@@ -7,9 +7,6 @@ alt: 'Understanding Variance and Standard Deviation in Python'
 summary: Variance and standard deviation are two commonly used measures of statistical dispersion. They can be used to quantify the amount of variation or dispersion of a set of values. In this blog, we'll learn how to calculate variance and standard deviation in Python without importing any modules.
 ---
 
-## Headings
-
----
 
 Variance and standard deviation are two commonly used measures of statistical dispersion. They can be used to quantify the amount of variation or dispersion of a set of values. In this blog, we'll learn how to calculate variance and standard deviation in Python without importing any modules.
 
@@ -48,5 +45,3 @@ print(f"standard deviation = {standard_deviation(data)}")
 ```
 
 In conclusion, variance and standard deviation are important measures of statistical dispersion that can help us understand the spread of a set of data values. In this blog, we've learned how to calculate variance and standard deviation in Python without importing any modules.
-
-[scrollToTop](#headings)

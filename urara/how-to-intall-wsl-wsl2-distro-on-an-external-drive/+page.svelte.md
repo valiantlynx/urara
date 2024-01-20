@@ -8,10 +8,6 @@ alt: 'How to Install WSL/WSL2 Distro on an External Drive'
 summary: If you're running out of space on your computer's hard drive, you can install WSL/WSL2 distro on an external drive. This will allow you to free up space on your computer's hard drive while still being able to use WSL/WSL2.
 ---
 
-## Headings
-
----
-
 I had this problem today. I had a WSL Ubuntu distro with important stuff on it. It was on my computer SSD (C:\) drive, but I needed to reset my computer. It would be a hassle to move them manually, especially because many of them were Linux programs. So, I needed to move the whole distro. After some research, I theorized two ways to do it.
 
 The first way was to install another distro on my own specified path and then move the files there using some Linux tool like SSH. However, I wasn't able to find a way to define the path.
@@ -39,5 +35,3 @@ Here is how I did it:
    - `root@DESKTOP-3EGT6DL:~#`
 
 This is good for the most part as you could say you are free. Before, you could not go into the root folder and were using a user. Now, you are logged in as root. To find the former root folder, go to `cd ../home/valiantlynx/` and change `valiantlynx` to your own username.
-
-[scrollToTop](#headings)

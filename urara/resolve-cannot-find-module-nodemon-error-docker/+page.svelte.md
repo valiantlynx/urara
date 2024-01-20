@@ -7,9 +7,6 @@ alt: 'How to Resolve the Cannot find module nodemon Error When Running Nodemon I
 summary: Docker is a popular platform for building, shipping, and running applications in containers. When developing applications with Node.js, it is common to use tools like nodemon to automatically reload the application when code changes are made. However, sometimes when running nodemon inside a Docker container, you may encounter an error that says "Cannot find module 'nodemon'".
 ---
 
-## Headings
-
----
 
 Docker is a popular platform for building, shipping, and running applications in containers. When developing applications with Node.js, it is common to use tools like nodemon to automatically reload the application when code changes are made. However, sometimes when running nodemon inside a Docker container, you may encounter an error that says "Cannot find module 'nodemon'".
 
@@ -28,5 +25,3 @@ Additionally, you should change the **CMD ["nodemon", "-p", "3000"]** to **CMD [
 Finally, you can check if the nodemon package is installed in the container by running **nodemon -v** to see if it is installed and the version of it.
 
 By following these steps, you should be able to resolve the "Cannot find module 'nodemon'" error when running nodemon inside a Docker container.
-
-[scrollToTop](#headings)

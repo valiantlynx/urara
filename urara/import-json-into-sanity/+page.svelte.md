@@ -19,9 +19,6 @@ alt: 'How to Import JSON Data into Sanity CMS'
 summary: Sanity is a flexible and open-source Content Management System (CMS) that enables developers and content creators to easily manage and organize their data. One of the great features of Sanity is its ability to import data from various sources, including JSON files. In this tutorial, we will go through the steps to import JSON data into Sanity.
 ---
 
-## Headings
-
----
 
 Sanity is a flexible and open-source Content Management System (CMS) that enables developers and content creators to easily manage and organize their data. One of the great features of Sanity is its ability to import data from various sources, including JSON files. In this tutorial, we will go through the steps to import JSON data into Sanity.
 
@@ -71,5 +68,3 @@ sanity dataset import ./path/to/your/file.json
 ```
 
 2. Follow the prompts to complete the import process.
-
-[scrollToTop](#headings)
